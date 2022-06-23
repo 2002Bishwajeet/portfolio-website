@@ -92,21 +92,3 @@
     </ul>
   </div>
 </nav>
-
-<!-- <style>
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-    margin: 0 auto;
-  }
-  nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex: 1;
-    align-items: center;
-    padding: 1em;
-    margin: 0 auto;
-  }
-</style> -->
