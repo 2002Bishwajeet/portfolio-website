@@ -2,15 +2,15 @@
   import profile from "../assets/profile.png";
 </script>
 
-<div class="md:mx-8 flex flex-col items-start justify-between ">
+<div class=" min-h-full flex flex-col items-start justify-between ">
   <div
     class=" mt-4 md:flex md:flex-row md:mt-20 items-center justify-between  w-full"
   >
     <div class="content-start items-start text-start mb-4 flex-col ">
-      <p class="text-2xl md:text-4xl pb-2 md:pb-4">
+      <p class="text-xl md:text-4xl pb-2 md:pb-4">
         I'm <span class="tracking-wider font-bold"> Bishwajeet Parhi</span>
       </p>
-      <p class="text-lg font-normal mr-6">
+      <p class="text-lg font-medium mr-6">
         Flutter developer, front-end developer, open source contributor and
         student
       </p>
@@ -22,8 +22,7 @@
       alt="profile"
     />
   </div>
-
-  <div class=" h-16 md:flex items-center justify-between  md:w-full">
+  <div class=" absolute bottom-4 md:flex items-center justify-between  ">
     <div class="flex">
       <!-- <Icon icon="fa6-brands:linkedin" color="212121" /> -->
       <svg

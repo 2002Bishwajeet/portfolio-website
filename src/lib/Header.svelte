@@ -5,11 +5,7 @@
 <nav class="flex justify-between items-center">
   <div class="w-1/2">
     <a href="/" class="logo">
-      <img
-      class = "h-14 w-auto"
-        src= {logo}
-        alt="Keep"
-      />
+      <img class="h-14 w-auto" src={logo} alt="Keep" />
     </a>
   </div>
   <div class="absolute  right-4 flex items-center sm:hidden">
@@ -85,7 +81,7 @@
         <!-- svelte-ignore a11y-invalid-attribute -->
         <a href="#">Experience</a>
       </li>
-      <li class="mr-6">
+      <li>
         <!-- svelte-ignore a11y-invalid-attribute -->
         <a href="#">Contact</a>
       </li>
