@@ -1,5 +1,6 @@
 <script lang="ts">
   import Header from "./lib/Header.svelte";
+  import Home from "./lib/Home.svelte";
 </script>
 
 <svelte:head>
@@ -13,6 +14,7 @@
 
 <main>
   <Header />
+  <Home />
 </main>
 
 <style>
@@ -22,6 +24,7 @@
   
   main {
     text-align: center;
+    
     padding: 1em;
     margin: 0 auto;
     font-family: "Rubik", sans-serif;
