@@ -2,6 +2,7 @@
   import Header from "./lib/Header.svelte";
   import Home from "./lib/Home.svelte";
   import Services from "./lib/Services.svelte";
+  import Skills from "./lib/Skills.svelte"; 
 </script>
 
 <svelte:head>
@@ -17,6 +18,8 @@
 <Header />
   <Home />
   <Services />
+  <Skills />
+  
 </main>
 
 <style>
