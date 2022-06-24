@@ -1,11 +1,11 @@
 <script lang="ts">
-  import logo from "../assets/logo.png";
+  import logoLight from "../assets/logo-light.png";
 </script>
 
 <nav class="flex justify-between items-center">
   <div class="w-1/2">
     <a href="/" class="logo">
-      <img class="h-14 w-auto" src={logo} alt="Keep" />
+      <img class="h-14 w-auto" src={logoLight} alt="Keep" />
     </a>
   </div>
   <div class="absolute  right-4 flex items-center sm:hidden">
