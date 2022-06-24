@@ -3,6 +3,7 @@
   import Home from "./lib/Home.svelte";
   import Services from "./lib/Services.svelte";
   import Skills from "./lib/Skills.svelte"; 
+  import Experiences from "./lib/Experiences.svelte";
 </script>
 
 <svelte:head>
@@ -19,6 +20,7 @@
   <Home />
   <Services />
   <Skills />
+  <Experiences/>
   
 </main>
 
