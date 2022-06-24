@@ -4,13 +4,13 @@ const config = {
   theme: {
     extend: {
       colors: {
-        'shady-black' : '#212121',
-        'milkish-white': '#F8F8F8'
-      }
+        "shady-black": "#212121",
+        "milkish-white": "#F8F8F8",
+      },
     },
   },
 
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
 
 module.exports = config;

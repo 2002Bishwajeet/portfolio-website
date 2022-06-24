@@ -4,6 +4,7 @@
   import Services from "./lib/Services.svelte";
   import Skills from "./lib/Skills.svelte"; 
   import Experiences from "./lib/Experiences.svelte";
+import Contact from "./lib/Contact.svelte";
 </script>
 
 <svelte:head>
@@ -21,6 +22,12 @@
   <Services />
   <Skills />
   <Experiences/>
+  <Contact/>
+
+  <div class = "my-24">
+    <p>Copyright ©️ 2022, All rights reserved</p>
+    <p> Made with ❤️ by Biswa . Designed by Mehmet Eren Olgun </p>
+  </div>
   
 </main>
 
