@@ -1,6 +1,7 @@
 <script lang="ts">
   import Header from "./lib/Header.svelte";
   import Home from "./lib/Home.svelte";
+  import Services from "./lib/Services.svelte";
 </script>
 
 <svelte:head>
@@ -15,6 +16,7 @@
 <main class = "md:mx-8">
 <Header />
   <Home />
+  <Services />
 </main>
 
 <style>

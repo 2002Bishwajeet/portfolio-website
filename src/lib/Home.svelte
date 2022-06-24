@@ -22,7 +22,7 @@
       alt="profile"
     />
   </div>
-  <div class=" absolute bottom-4 md:flex items-center justify-between  ">
+  <div class="mt-48 md:flex items-center justify-between  ">
     <div class="flex">
       <!-- <Icon icon="fa6-brands:linkedin" color="212121" /> -->
       <svg
@@ -70,8 +70,3 @@
     <p>bishwajeet.techmaster@gmail.com</p>
   </div>
 </div>
-
-<!-- <style>
-  body {
-  }
-</style> -->
