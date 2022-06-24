@@ -121,7 +121,7 @@
               </label>
 
             </div>
-           <button type="button" class="text-shady-black bg-milkish-white hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mt-4 ">Submit</button>
+           <button type="button" class="text-shady-black bg-milkish-white hover:bg-gray-300 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mt-4 ">Submit</button>
     </form>
   </div>
 </div>
