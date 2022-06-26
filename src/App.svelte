@@ -2,9 +2,10 @@
   import Header from "./lib/Header.svelte";
   import Home from "./lib/Home.svelte";
   import Services from "./lib/Services.svelte";
-  import Skills from "./lib/Skills.svelte"; 
+  import Skills from "./lib/Skills.svelte";
   import Experiences from "./lib/Experiences.svelte";
-import Contact from "./lib/Contact.svelte";
+  import Contact from "./lib/Contact.svelte";
+  import biswa from "../biswa.json";
 </script>
 
 <svelte:head>
@@ -16,26 +17,48 @@ import Contact from "./lib/Contact.svelte";
   />
 </svelte:head>
 
-<main class = "md:mx-8">
-<Header />
-  <Home />
-  <Services />
-  <Skills />
-  <Experiences/>
-  <Contact/>
+<main class="md:mx-8">
+  <Header />
+  <Home
+    name={biswa.name}
+    tagline={biswa.tagline}
+    email={biswa.email}
+    linkedin={biswa.linkedin}
+    github={biswa.github}
+    twitter={biswa.twitter}
+    instagram={biswa.instagram}
+    medium={biswa.medium}
+  />
+  <Services 
+  services = {biswa.services}
+  />
+  <Skills 
+    technology = {biswa.skills.technology}
+    tools = {biswa.skills.tools}
+  />
+  <Experiences
+    experiences = {biswa.experience}
+  />
+  <Contact 
+    linkedin = {biswa.linkedin}
+    github = {biswa.github}
+    twitter = {biswa.twitter}
+    instagram = {biswa.instagram}
+    medium = {biswa.medium}
+    email = {biswa.email}
+  />
 
-  <div class = "my-24">
+  <div class="my-24">
     <p>Copyright ©️ 2022, All rights reserved</p>
-    <p> Made with ❤️ by Biswa . Designed by Mehmet Eren Olgun </p>
+    <p>Made with ❤️ by {biswa.nickname} . Designed by Mehmet Eren Olgun</p>
   </div>
-  
 </main>
 
 <style>
   :root {
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
   }
-  
+
   main {
     text-align: center;
     padding: 1em;
