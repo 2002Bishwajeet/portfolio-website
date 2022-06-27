@@ -5,10 +5,10 @@
   export let description;
 </script>
 
-<div class=" min-w-min content-start items-start text-start w-96 mt-12">
- <Icon class = "text-6xl -ml-2 text-shady-black" icon={icon}  />
-  <p class="font-medium text-xl my-2">{title}</p>
-  <p class="font-light text-left">
+<div class=" min-w-min content-start items-start text-start w-96 mt-16">
+ <Icon class = "text-5xl -ml-2 text-shady-black" icon={icon}  />
+  <p class="font-medium text-2xl my-2">{title}</p>
+  <p class="font-light text-lg text-left">
   {description}
   </p>
 </div>
