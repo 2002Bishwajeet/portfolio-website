@@ -48,7 +48,7 @@
     email = {biswa.email}
   />
 
-  <div class="my-24">
+  <div class="mt-24 mb-1">
     <p>Copyright ©️ 2022, All rights reserved</p>
     <p>Made with ❤️ by {biswa.nickname} . Designed by Mehmet Eren Olgun</p>
   </div>

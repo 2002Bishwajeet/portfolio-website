@@ -7,15 +7,15 @@
   export let email: string;
 </script>
 
-<div class="lg:flex lg:flex-wrap mt-24">
+<div class="grid gap-16 grid-cols-1  lg:grid-cols-2 mt-24">
   <div
-    class="flex-col flex text-start items-start justify-evenly w-1/2 h-auto pr-44"
+    class="grid grid-cols-1 gap-12 lg:gap-0 text-start items-center justify-evenly w-full lg:h-auto xl:pr-36"
   >
     <p class="text-5xl font-bold">Just say hi</p>
     <p class="text-2xl">
       I'm always open to discuss your project and talk about new things
     </p>
-    <div class="flex justify-between items-start w-full">
+    <div class="flex flex-wrap justify-between items-start w-full">
       <div>
         <p>Mail me at</p>
         <p>{email}</p>
@@ -24,9 +24,9 @@
         <p>Follow me</p>
         <div class="flex">
           <!-- <Icon icon="fa6-brands:linkedin" color="212121" /> -->
-          <a href={linkedin}>
+          <a class="w-5  mr-4" href={linkedin}>
             <svg
-              class="w-5  mr-4 fill-shady-black"
+              class=" fill-shady-black"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
               ><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
@@ -34,9 +34,9 @@
               /></svg
             >
           </a>
-          <a href={github}>
+          <a class="w-5  mr-4" href={github}>
             <svg
-              class="w-5  mr-4 fill-shady-black"
+              class=" fill-shady-black"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
               ><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
@@ -44,9 +44,9 @@
               /></svg
             >
           </a>
-          <a href={instagram}>
+          <a class="w-5  mr-4" href={instagram}>
             <svg
-              class="w-5  mr-4 fill-shady-black"
+              class=" fill-shady-black"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
               ><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
@@ -54,9 +54,9 @@
               /></svg
             >
           </a>
-          <a href={medium}>
+          <a class="w-5  mr-4" href={medium}>
             <svg
-              class="w-5  mr-4 fill-shady-black"
+              class=" fill-shady-black"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 640 512"
               ><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
@@ -64,9 +64,9 @@
               /></svg
             >
           </a>
-          <a href={twitter}>
+          <a class="w-5  mr-4" href={twitter}>
             <svg
-              class="w-5  mr-4 fill-shady-black"
+              class=" fill-shady-black"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
               ><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
@@ -78,7 +78,7 @@
       </div>
     </div>
   </div>
-  <div class="bg-shady-black w-1/2 ">
+  <div class="bg-shady-black w-full h-full">
     <form class="text-start items-end my-20 mx-24 ">
       <div class="grid grid-cols-1 gap-6">
         <label class="block ">
