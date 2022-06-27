@@ -7,7 +7,7 @@
   export let email: string;
 </script>
 
-<div class="grid gap-16 grid-cols-1  lg:grid-cols-2 mt-24">
+<div id ="contact" class="grid gap-16 grid-cols-1  lg:grid-cols-2 mt-24">
   <div
     class="grid grid-cols-1 gap-12 lg:gap-0 text-start items-center justify-evenly w-full lg:h-auto xl:pr-36"
   >
@@ -17,14 +17,14 @@
     </p>
     <div class="flex flex-wrap justify-between items-start w-full">
       <div>
-        <p>Mail me at</p>
-        <p>{email}</p>
+        <p class="text-lg font-light">Mail me at</p>
+        <p class="mt-2 text-xl ">{email}</p>
       </div>
       <div>
-        <p>Follow me</p>
-        <div class="flex">
+        <p class="text-lg font-light">Follow me</p>
+        <div class="flex mt-2">
           <!-- <Icon icon="fa6-brands:linkedin" color="212121" /> -->
-          <a class="w-5  mr-4" href={linkedin}>
+          <a class="w-5  mr-4" href={linkedin} target="_blank">
             <svg
               class=" fill-shady-black"
               xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@
               /></svg
             >
           </a>
-          <a class="w-5  mr-4" href={github}>
+          <a class="w-5  mr-4" href={github} target="_blank">
             <svg
               class=" fill-shady-black"
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@
               /></svg
             >
           </a>
-          <a class="w-5  mr-4" href={instagram}>
+          <a class="w-5  mr-4" href={instagram} target="_blank">
             <svg
               class=" fill-shady-black"
               xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@
               /></svg
             >
           </a>
-          <a class="w-5  mr-4" href={medium}>
+          <a class="w-5  mr-4" href={medium} target="_blank">
             <svg
               class=" fill-shady-black"
               xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@
               /></svg
             >
           </a>
-          <a class="w-5  mr-4" href={twitter}>
+          <a class="w-5  mr-4" href={twitter} target="_blank">
             <svg
               class=" fill-shady-black"
               xmlns="http://www.w3.org/2000/svg"

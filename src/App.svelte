@@ -6,6 +6,7 @@
   import Experiences from "./lib/Experiences.svelte";
   import Contact from "./lib/Contact.svelte";
   import biswa from "../biswa.json";
+
 </script>
 
 <svelte:head>
@@ -18,8 +19,9 @@
 </svelte:head>
 
 <main class="mx-2 md:mx-8">
-  <Header />
+  <Header  />
   <Home
+  
     name={biswa.name}
     tagline={biswa.tagline}
     email={biswa.email}
@@ -46,7 +48,7 @@
     <p>
       Made with ❤️ by {biswa.nickname} . Designed by
       <a
-      class="underline"
+        class="underline"
         href="https://www.behance.net/gallery/102515935/Personal-Website?tracking_source=search_projects%7Cpersonal%20website"
         target="_blank"
       >

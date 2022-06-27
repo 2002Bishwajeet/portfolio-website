@@ -1,5 +1,6 @@
 <script lang="ts">
   import logoLight from "../assets/logo-light.png";
+ 
   let isMobile : boolean = false;
   // Mobile menu click event handler
   const handleMobileIconClick = () => (isMobile = !isMobile);
@@ -77,24 +78,19 @@
   <div class="hidden lg:block">
     <ul class="flex w-5/6 justify-evenly items-center ">
       <li class="mr-6">
-        <!-- svelte-ignore a11y-invalid-attribute -->
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
       </li>
       <li class="mr-6">
-        <!-- svelte-ignore a11y-invalid-attribute -->
-        <a href="#">Services</a>
+        <a href="#services">Services</a>
       </li>
       <li class="mr-6">
-        <!-- svelte-ignore a11y-invalid-attribute -->
-        <a href="#">Skills</a>
+        <a href="#skills">Skills</a>
       </li>
       <li class="mr-6">
-        <!-- svelte-ignore a11y-invalid-attribute -->
-        <a href="#">Experience</a>
+        <a href="#experience">Experience</a>
       </li>
       <li>
-        <!-- svelte-ignore a11y-invalid-attribute -->
-        <a href="#">Contact</a>
+        <a href="#contact">Contact</a>
       </li>
     </ul>
   </div>
@@ -104,15 +100,15 @@
   <div id="mobile-menu">
     <div class="px-2 pt-2 pb-3 space-y-1">
       <!-- Current: "bg-gray-900 text-milkish-white", Default: "text-shady-black hover:bg-gray-400 hover:text-milkish-white" -->
-      <a href="#" class=" text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
+      <a href="#home" class=" text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
 
-      <a href="#" class="text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium">Service</a>
+      <a href="#services" class="text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium">Service</a>
 
-      <a href="#" class="text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium">Skills</a>
+      <a href="#skills" class="text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium">Skills</a>
          
-      <a href="#" class="text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium">Experience</a>
+      <a href="#experience" class="text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium">Experience</a>
 
-      <a href="#" class="text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+      <a href="#contact" class="text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
     </div>
   </div>
 

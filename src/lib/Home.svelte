@@ -1,5 +1,6 @@
 <script lang="ts">
   import profile from "../assets/profile.png";
+
   export let name: string;
   export let tagline: string;
   export let email: string;
@@ -10,15 +11,19 @@
   export let medium: string;
 </script>
 
-<div class=" min-h-full flex flex-col items-start justify-between ">
+<div id = "home" class=" min-h-full flex flex-col items-start justify-between ">
   <div
     class=" mt-4 md:flex md:flex-row md:mt-20 items-center justify-between  w-full lg:mb-12"
   >
     <div class="content-start items-start text-start mb-4 md:w-3/5 ">
-      <p class="text-3xl md:text-4xl lg:text-5xl big-desktop:text-5.25xl pb-2 md:pb-4">
+      <p
+        class="text-3xl md:text-4xl lg:text-5xl big-desktop:text-5.25xl pb-2 md:pb-4"
+      >
         I'm <span class="tracking-wider font-bold">{name}</span>
       </p>
-      <p class=" text-lg md:text-xl lg:text-2xl big-desktop:text-3xl font-normal mr-6">
+      <p
+        class=" text-lg md:text-xl lg:text-2xl big-desktop:text-3xl font-normal mr-6"
+      >
         {tagline}
       </p>
     </div>
@@ -29,7 +34,9 @@
       alt="profile"
     />
   </div>
-  <div class=" mt-12 md:mt-48 md:flex items-center justify-between md:min-w-full ">
+  <div
+    class=" mt-12 md:mt-48 md:flex items-center justify-between md:min-w-full "
+  >
     <div class="flex flex-row mb-4 ">
       <!-- <Icon icon="fa6-brands:linkedin" color="212121" /> -->
       <a class="w-5  mr-8" href={linkedin} target="_blank">
@@ -84,6 +91,6 @@
       </a>
     </div>
 
-    <p class = "text-shady-black text-base md:text-lg xl:text-xl">{email}</p>
+    <p class="text-shady-black text-base md:text-lg xl:text-xl">{email}</p>
   </div>
 </div>
