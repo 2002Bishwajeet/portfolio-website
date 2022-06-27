@@ -84,6 +84,6 @@
       </a>
     </div>
 
-    <p>{email}</p>
+    <p class = "text-shady-black text-base md:text-lg xl:text-xl">{email}</p>
   </div>
 </div>
