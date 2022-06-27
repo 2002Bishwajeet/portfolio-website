@@ -12,7 +12,7 @@
 
 <div class=" min-h-full flex flex-col items-start justify-between ">
   <div
-    class=" mt-4 md:flex md:flex-row md:mt-20 items-center justify-between  w-full"
+    class=" mt-4 md:flex md:flex-row md:mt-20 items-center justify-between  w-full lg:mb-12"
   >
     <div class="content-start items-start text-start mb-4 md:w-3/5 ">
       <p class="text-3xl md:text-4xl lg:text-5xl big-desktop:text-5.25xl pb-2 md:pb-4">
