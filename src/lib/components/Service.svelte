@@ -1,8 +1,8 @@
 <script lang="ts">
    import Icon from "@iconify/svelte";
-  export let icon;
-  export let title;
-  export let description;
+  export let icon:string;
+  export let title:string;
+  export let description:string;
 </script>
 
 <div class=" min-w-min content-start items-start text-start w-96 mt-16">
