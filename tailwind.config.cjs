@@ -7,6 +7,12 @@ const config = {
         "shady-black": "#212121",
         "milkish-white": "#F8F8F8",
       },
+      screens: {
+        "big-desktop": "1920px",
+      },
+      fontSize: {
+        "5.25xl": "3.25rem",
+      },
     },
   },
 

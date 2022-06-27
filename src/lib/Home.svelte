@@ -14,27 +14,27 @@
   <div
     class=" mt-4 md:flex md:flex-row md:mt-20 items-center justify-between  w-full"
   >
-    <div class="content-start items-start text-start mb-4 flex-col ">
-      <p class="text-xl md:text-4xl pb-2 md:pb-4">
+    <div class="content-start items-start text-start mb-4 md:w-3/5 ">
+      <p class="text-3xl md:text-4xl lg:text-5xl big-desktop:text-5.25xl pb-2 md:pb-4">
         I'm <span class="tracking-wider font-bold">{name}</span>
       </p>
-      <p class="text-lg font-medium mr-6">
+      <p class=" text-lg md:text-xl lg:text-2xl big-desktop:text-3xl font-normal mr-6">
         {tagline}
       </p>
     </div>
 
     <img
-      class="rounded-xl mr-8 shadow-xl object-cover object-bottom h-72  w-64  "
+      class="rounded-xl mr-8 shadow-xl object-cover object-bottom h-72 xl:w-1/5 big-desktop:w-1/6 big-desktop:h-80"
       src={profile}
       alt="profile"
     />
   </div>
-  <div class="mt-48 md:flex items-center justify-between  ">
-    <div class="flex flex-row">
+  <div class=" mt-12 md:mt-48 md:flex items-center justify-between md:min-w-full ">
+    <div class="flex flex-row mb-4 ">
       <!-- <Icon icon="fa6-brands:linkedin" color="212121" /> -->
-      <a href={linkedin}>
+      <a class="w-5  mr-8" href={linkedin} target="_blank">
         <svg
-          class="w-5  mr-8 fill-shady-black"
+          class=" fill-shady-black"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"
           ><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
@@ -42,9 +42,9 @@
           /></svg
         >
       </a>
-      <a href={github}>
+      <a class="w-5  mr-8" href={github} target="_blank">
         <svg
-          class="w-5  mr-8 fill-shady-black"
+          class=" fill-shady-black"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 496 512"
           ><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
@@ -52,9 +52,9 @@
           /></svg
         >
       </a>
-      <a href={instagram}>
+      <a class="w-5  mr-8" href={instagram} target="_blank">
         <svg
-          class="w-5  mr-8 fill-shady-black"
+          class="fill-shady-black"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"
           ><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
@@ -62,9 +62,9 @@
           /></svg
         >
       </a>
-      <a href={medium}>
+      <a class="w-5  mr-8" href={medium} target="_blank">
         <svg
-          class="w-5  mr-8 fill-shady-black"
+          class=" fill-shady-black"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 640 512"
           ><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
@@ -72,9 +72,9 @@
           /></svg
         >
       </a>
-      <a href={twitter}>
+      <a class="w-5  mr-8" href={twitter} target="_blank">
         <svg
-          class="w-5  mr-8 fill-shady-black"
+          class=" fill-shady-black"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
           ><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
@@ -87,4 +87,3 @@
     <p>{email}</p>
   </div>
 </div>
-

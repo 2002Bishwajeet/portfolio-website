@@ -9,7 +9,7 @@
   <div class="w-1/2">
       <img class="h-14 w-auto" src={logoLight} alt="Biswa logo" />
   </div>
-  <div class="justify-between flex items-center md:hidden">
+  <div class="justify-between flex items-center lg:hidden">
     <button
       type="button"
       on:click= {handleMobileIconClick}
@@ -74,7 +74,7 @@
   </div>
    <!-- Mobile menu, show/hide based on menu state. -->
  
-  <div class="hidden md:block">
+  <div class="hidden lg:block">
     <ul class="flex w-5/6 justify-evenly items-center ">
       <li class="mr-6">
         <!-- svelte-ignore a11y-invalid-attribute -->
@@ -101,7 +101,7 @@
   
 </nav>
 {#if isMobile}
-  <div class="md:hidden" id="mobile-menu">
+  <div id="mobile-menu">
     <div class="px-2 pt-2 pb-3 space-y-1">
       <!-- Current: "bg-gray-900 text-milkish-white", Default: "text-shady-black hover:bg-gray-400 hover:text-milkish-white" -->
       <a href="#" class=" text-shady-black hover:bg-gray-400 hover:text-milkish-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
