@@ -17,7 +17,7 @@
   />
 </svelte:head>
 
-<main class="md:mx-8">
+<main class="mx-2 md:mx-8">
   <Header />
   <Home
     name={biswa.name}

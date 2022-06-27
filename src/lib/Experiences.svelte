@@ -5,7 +5,7 @@
 
 
 <div class="mt-16">
-  <p class="items-start text-start content-start font-bold text-4xl mb-12">
+  <p class="items-start text-start content-start font-bold text-4xl md:text-5xl mb-12">
     Experience
   </p>
 
@@ -14,7 +14,7 @@
   {#if i != experiences.length - 1}
   
     <div class="my-8">
-      <div class="w-full border-t border-gray-300" />
+      <div class="w-11/12 border-t border-gray-300" />
     </div>
    
   {/if}
