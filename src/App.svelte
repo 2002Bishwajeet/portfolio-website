@@ -29,28 +29,30 @@
     instagram={biswa.instagram}
     medium={biswa.medium}
   />
-  <Services 
-  services = {biswa.services}
-  />
-  <Skills 
-    technology = {biswa.skills.technology}
-    tools = {biswa.skills.tools}
-  />
-  <Experiences
-    experiences = {biswa.experience}
-  />
-  <Contact 
-    linkedin = {biswa.linkedin}
-    github = {biswa.github}
-    twitter = {biswa.twitter}
-    instagram = {biswa.instagram}
-    medium = {biswa.medium}
-    email = {biswa.email}
+  <Services services={biswa.services} />
+  <Skills technology={biswa.skills.technology} tools={biswa.skills.tools} />
+  <Experiences experiences={biswa.experience} />
+  <Contact
+    linkedin={biswa.linkedin}
+    github={biswa.github}
+    twitter={biswa.twitter}
+    instagram={biswa.instagram}
+    medium={biswa.medium}
+    email={biswa.email}
   />
 
   <div class="mt-24 mb-1">
     <p>Copyright ©️ 2022, All rights reserved</p>
-    <p>Made with ❤️ by {biswa.nickname} . Designed by Mehmet Eren Olgun</p>
+    <p>
+      Made with ❤️ by {biswa.nickname} . Designed by
+      <a
+      class="underline"
+        href="https://www.behance.net/gallery/102515935/Personal-Website?tracking_source=search_projects%7Cpersonal%20website"
+        target="_blank"
+      >
+        Mehmet Eren Olgun
+      </a>
+    </p>
   </div>
 </main>
 
