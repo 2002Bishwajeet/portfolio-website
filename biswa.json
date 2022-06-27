@@ -1,0 +1,112 @@
+{
+  "name": "Bishwajeet Parhi",
+  "tagline": "Flutter developer, front-end developer, open source contributor and student",
+  "nickname": "Biswa",
+  "email": "bishwajeet.techmaster@gmail.com",
+  "github": "https://github.com/2002Bishwajeet",
+  "twitter": "https://twitter.com/biswa_20p",
+  "medium": "https://medium.com/@bishwajeet-parhi",
+  "linkedin": "https://www.linkedin.com/in/2002bishwajeet",
+  "instagram": "https://www.instagram.com/biswa_20p/",
+  "services": [
+    {
+      "icon": "ri:flutter-fill",
+      "title": "Flutter Developer",
+      "description": "I have been working with flutter for over 1.5 years. I can build cross-platform responsive apps using flutter."
+    },
+    {
+      "icon": "dashicons:welcome-write-blog",
+      "title": "Content writer",
+      "description": "I have been writing technical blogs ranging from my experience with open source contribution or writing tutorials for flutter."
+    },
+    {
+      "icon": "ri:open-source-fill",
+      "title": "Open Source Contributor",
+      "description": "I love contributing to open-source projects. I have infact contributed to several open-source projects."
+    }
+  ],
+  "skills": {
+    "technology": [
+      {
+        "icon":  "ri:flutter-fill",
+        "title": "Flutter"
+      },
+      {
+        "icon": "simple-icons:firebase",
+        "title": "Firebase"
+      },
+      {
+        "icon": "simple-icons:appwrite",
+        "title": "Appwrite"
+      },
+      {
+        "icon": "mdi:language-c",
+        "title": "C lang"
+      },
+      {
+        "icon": "mdi:language-cpp",
+        "title": "C++"
+      },
+      {
+        "icon": "simple-icons:dart",
+        "title": "Dart"
+      },
+      {
+        "icon": "simple-icons:svelte",
+        "title": "Svelte"
+      },
+
+      {
+        "icon": "akar-icons:javascript-fill",
+        "title": "JavaScript"
+      },
+      {
+        "icon": "cib:typescript",
+        "title": "TypeScript"
+      },
+      {
+        "icon": "cib:mysql",
+        "title": "MySQL"
+      }
+    ],
+    "tools": [
+      {
+        "icon": "cib:adobe-photoshop",
+        "title": "Adobe Photoshop"
+      },
+      {
+        "icon": "cib:adobe-xd",
+        "title": "Adobe XD"
+      },
+      {
+        "icon": "arcticons:git",
+        "title": "Git"
+      },
+      {
+        "icon": "file-icons:cmake",
+        "title": "CMake"
+      },
+
+      {
+        "icon": "simple-icons:gitpod",
+        "title": "Gitpod"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "title": "Flutter Developer",
+      "company": "Presence",
+      "date_joining": "October 2021",
+      "date_left": "February 2022",
+      "description": "Collaborated with a team of developers to build a social-media app free from hatred and negativity. A platform which redefines the way people stay online. Reach out to millions of people and never feel overexposed. Haters and trolls cannot spoil your contents or attack you for what you say. I was responsible for converting the given mockups into pixel perfect UIs and connect the APIs for those following screens.  "
+    },
+    {
+      "title": "Open Source Contributor",
+      "company": "Appwrite",
+      "date_joining": "September 2021",
+      "date_left": "Present",
+      "description": "Appwrite is a self-hosted backend-as-a-service platform that provides developers with all the core APIs required to build any application. As an open-source contributor, I have contributed in improving docs, reported bugs and issues and gave feedback on improving appwrite. I have also contributed in adding an OAuth support, writing tutorial/blog using Appwrite and Flutter and currently working on making a Cpp SDK for appwrite and adding new languages support for appwrite-snippets.  "
+    }
+  ]
+}
