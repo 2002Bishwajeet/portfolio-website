@@ -40,10 +40,6 @@
         "title": "Appwrite"
       },
       {
-        "icon": "mdi:language-c",
-        "title": "C lang"
-      },
-      {
         "icon": "mdi:language-cpp",
         "title": "C++"
       },
