@@ -2,7 +2,7 @@
 
 <img src = ".github/images/home.png">
 
-## Tech Stack
+## 🤖 Tech Stack
 
 **This website is built with:**
 
@@ -14,11 +14,11 @@
 
 - [Vercel](https://vercel.com/), a static site hosting with amazing deployment flow using Git
 
-## Inspiration
+## 🖌️ Inspiration
 
 This website design is inpired by [Mehmet Eren Olgun](https://www.mehmeterenolgun.com/). You can look at his design and his work at [behance.net](https://www.behance.net/mehmeterenolgun)
 
-## Building
+## 💻 Building
 
 ### Running Locally
 
