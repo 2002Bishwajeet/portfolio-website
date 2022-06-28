@@ -1,4 +1,173 @@
-# Svelte + TS + Vite
+# Portfolio Website
+
+<img src = ".github/images/home.png">
+
+## Tech Stack
+
+**This website is built with:**
+
+- [TailwindCSS](https://tailwindcss.com/), a CSS library to rapidly design components using HTML classes.
+
+- [Svelte](https://svelte.dev/), a JS library to build reactive frontend. Alongside this, application uses [TypeScript](https://www.typescriptlang.org/).
+
+- [Vite](https://vitejs.dev), a build tool that aims to provide a faster and leaner development experience.
+
+- [Vercel](https://vercel.com/), a static site hosting with amazing deployment flow using Git
+
+## Inspiration
+
+This website design is inpired by [Mehmet Eren Olgun](https://www.mehmeterenolgun.com/). You can look at his design and his work at [behance.net](https://www.behance.net/mehmeterenolgun)
+
+## Building
+
+### Running Locally
+
+- Make sure you have [NodeJs](https://nodejs.dev/) installed.
+
+- Fork and clone this repository
+
+- `cd` into folder
+
+**Type the following commands**
+
+```bash
+# install dependencies
+$ npm install
+
+# run up the local host
+$ npm run dev
+```
+
+Now visit [localhost:3000](http://localhost:3000)
+
+**Voila 🎉** . You can run the local build successfully
+
+### Developing in Gitpod
+Just click on the button below to start developing in Gitpod.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/https://github.com/2002Bishwajeet/2002bishwajeet-portfolio)
+
+### Add your data
+
+- Add your profile picture with name `profile.png` in assets folder.
+
+* For logo, I made one using Adobe Photoshop, if you want to use your own logo, you can add it with name `logo-dark.png` in assets folder. Or just remove this from the `src/lib/Header.svelte` file.
+
+- Same goes for `favicon.ico`. Replace it in the `public` folder.
+
+ Rename `biswa.json` with username of your choice
+
+Replace with the `json` below with appropriate date
+Make sure you remove these comments when adding in `json` Files.
+Or rename it with `.jsonc` - Its `json` with comments.
+
+For Icons, I have used [iconify](https://iconify.design/). For icons data
+refer to the [icon-sets.iconify.design](https://icon-sets.iconify.design/) and use that if in `icon` field.
+
+```jsonc
+{
+  "name": "[YOUR-NAME-HERE]",
+  "tagline": "[YOUR-TAG-LINE]",
+  "nickname": "[NICKNAME]",
+  "email": "[YOUR-EMAIL-ID]",
+  "github": "[YOUR-GITHUB-URL]",
+  "twitter": "[YOUR-TWITTER-URL]",
+  "medium": "[YOUR-MEDIUM-URL]",
+  "linkedin": "[YOUR-LINKEDIN-URL]",
+  "instagram": "[YOUR-INSTAGRAM-URL]",
+  "services": [
+    {
+      "icon": "ri:flutter-fill",
+      "title": "Flutter Developer",
+      "description": "Accusam dolores voluptua amet clita nonumy, erat kasd kasd tempor dolores. Ipsum lorem kasd ipsum vero, lorem sadipscing ea ut."
+    },
+    {
+      "icon": "dashicons:welcome-write-blog",
+      "title": "Content writer",
+      "description": "Invidunt labore sed diam et no sed et lorem et aliquyam, voluptua accusam dolor duo amet et et. Dolores sit."
+    },
+    {
+      "icon": "ri:open-source-fill",
+      "title": "Open Source Contributor",
+      "description": "Ipsum takimata no dolor ea ipsum takimata voluptua sadipscing lorem, dolor magna invidunt ut diam erat amet, ipsum sea invidunt."
+    }
+  ],
+  "skills": {
+    "technology": [
+      {
+        "icon":  "ri:flutter-fill",
+        "title": "Flutter"
+      },
+
+      {
+        "icon": "simple-icons:svelte",
+        "title": "Svelte"
+      },
+
+      {
+        "icon": "akar-icons:javascript-fill",
+        "title": "JavaScript"
+      },
+      {
+        "icon": "cib:typescript",
+        "title": "TypeScript"
+      },
+    ],
+    "tools": [
+      {
+        "icon": "cib:adobe-photoshop",
+        "title": "Adobe Photoshop"
+      },
+      {
+        "icon": "cib:adobe-xd",
+        "title": "Adobe XD"
+      },
+      {
+        "icon": "simple-icons:gitpod",
+        "title": "Gitpod"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "title": "Flutter Developer",
+      "company": "Presence",
+      "date_joining": "October 2021",
+      "date_left": "February 2022",
+      "description": "Sit lorem sed labore justo sanctus duo sed sit dolor, et voluptua ea stet est gubergren kasd, nonumy diam takimata et lorem nonumy et tempor tempor, consetetur gubergren clita et est dolor aliquyam. Diam labore dolore no duo stet elitr,."
+    },
+    {
+      "title": "Open Source Contributor",
+      "company": "Appwrite",
+      "date_joining": "September 2021",
+      "date_left": "Present",
+      "description": "At gubergren magna diam sanctus consetetur no dolores sed no ut, clita kasd lorem eirmod consetetur invidunt elitr sanctus stet,. "
+    }
+  ]
+}
+```
+
+That's it. Goto `src/App.svelte` and check if your json file has been imported properly.
+
+**And it should work🎉.**
+
+
+
+
+
+
+## Overview
+
+**Original design** : [behance.net/mehmeterenolgun](https://www.behance.net/gallery/102515935/Personal-Website?tracking_source=search_projects%7Cpersonal%20website)
+
+![image](.github/images/portfolio.jpg)
+
+## License
+
+This project is [GPL-3.0 licensed](https://www.gnu.org/licenses/gpl-3.0.en.html). If you are thinking of using this website as your own portfolio or for your own uses, please do proper credit by linking back to [bishwajeetparhi.dev](bishwajeetparhi.dev) and the designer [author](https://www.mehmeterenolgun.com/).
+
+---
+# 📚 Svelte + TS + Vite (Generated)
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
 
