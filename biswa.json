@@ -28,7 +28,7 @@
   "skills": {
     "technology": [
       {
-        "icon":  "ri:flutter-fill",
+        "icon": "ri:flutter-fill",
         "title": "Flutter"
       },
       {
@@ -69,6 +69,10 @@
       {
         "icon": "cib:adobe-photoshop",
         "title": "Adobe Photoshop"
+      },
+      {
+        "icon": "cib-adobe-illustrator",
+        "title": "Adobe Illustrator"
       },
       {
         "icon": "cib:adobe-xd",
