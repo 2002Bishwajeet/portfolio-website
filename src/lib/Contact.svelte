@@ -151,7 +151,7 @@
                   "
             rows="4"
             placeholder="Your project description"
-          />
+          ></textarea>
         </label>
       </div>
       <button

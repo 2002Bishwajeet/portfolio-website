@@ -1,5 +1,5 @@
 <script lang="ts">
-  import profile from "../assets/profile.png";
+  import profile from "../assets/profile.webp";
 
   export let name: string;
   export let tagline: string;

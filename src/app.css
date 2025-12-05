@@ -1,4 +1,21 @@
-/* Write your global styles here, in PostCSS syntax */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+@theme {
+  --color-shady-black: #212121;
+  --color-milkish-white: #F8F8F8;
+  --breakpoint-big-desktop: 1920px;
+
+  /* Font size extension */
+  --text-5\.25xl: 3.25rem;
+  --text-5\.25xl--line-height: 1;
+}
+
+/*
+  Reset or base styles if needed.
+  Tailwind 4 usually provides a good reset via @import "tailwindcss".
+*/
+:root {
+  font-family: 'Rubik', sans-serif; /* Keep the font from index.html head */
+  background-color: #f8f8f8; /* from old App.svelte style */
+}

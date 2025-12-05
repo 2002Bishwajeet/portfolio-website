@@ -1,6 +1,8 @@
 <script lang="ts">
   import Experience from "./components/Experience.svelte";
-  export let experiences = [];
+  import type { Experience as ExperienceType } from "../types";
+
+  export let experiences: ExperienceType[] = [];
 </script>
 
 <div id="experience" class="mt-16">
@@ -14,7 +16,7 @@
     <Experience {experience} />
     {#if i != experiences.length - 1}
       <div class="my-8">
-        <div class="w-11/12 border-t border-gray-300" />
+        <div class="w-11/12 border-t border-gray-300"></div>
       </div>
     {/if}
   {/each}

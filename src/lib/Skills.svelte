@@ -1,7 +1,9 @@
 <script lang="ts">
   import Skill from "./components/Skill.svelte";
-  export let technology = [];
-  export let tools = []
+  import type { Skill as SkillType } from "../types";
+
+  export let technology: SkillType[] = [];
+  export let tools: SkillType[] = [];
 </script>
 
 <div id="skills" class= "my-64">
