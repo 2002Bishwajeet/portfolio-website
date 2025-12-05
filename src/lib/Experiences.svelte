@@ -1,6 +1,8 @@
 <script lang="ts">
   import Experience from "./components/Experience.svelte";
-  export let experiences = [];
+  import type { Experience as ExperienceType } from "../types";
+
+  export let experiences: ExperienceType[] = [];
 </script>
 
 <div id="experience" class="mt-16">
