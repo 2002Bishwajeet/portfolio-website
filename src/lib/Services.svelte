@@ -1,7 +1,8 @@
 <script lang="ts">
   import Service from "./components/Service.svelte";
+  import type { Service as ServiceType } from "../types";
 
-  export let services = [];
+  export let services: ServiceType[] = [];
 </script>
 
 <div id="services" class="mt-24">
